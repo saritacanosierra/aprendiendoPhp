@@ -1,52 +1,27 @@
-# 📌 Nombre del Proyecto
+# 📌proyectophp
 
 AprendiendoPHP es mi espacio de aprendizaje y práctica con PHP. Aquí guardo ejercicios, ejemplos y notas mientras exploro el lenguaje y sus aplicaciones en desarrollo web. 🚀📌
 ## 🚀 Características
 - ✅ Funcionalidad clave 1
-- ✅ Funcionalidad clave 2
-- ✅ Funcionalidad clave 3
+
 
 ## 📦 Requisitos
-- PHP >= 8.0
-- Composer
-- Extensiones necesarias:
-_________________________________________________________
+- xampp
 
 ## 🛠 Instalación:
-_________________________________________________________
-
-🖇️ Clona el repositorio:
-```bash
-git clone https://github.com/tuusuario/tu-repositorio.git
-cd tu-repositorio
-```
-Instala las dependencias:
-```bash
-composer install
-```
-Configura las variables de entorno:
-```bash
-cp .env.example .env
-```
-Edita el archivo `.env` con tus valores.
-
-Ejecuta el servidor de desarrollo (si aplica):
-```bash
-php -S localhost:8000 -t public
-```
-
-## 📌 Uso
-
-Ejemplo de cómo utilizar el proyecto:
 
 ```php
-require 'vendor/autoload.php';
-
-use App\MiClase;
-
-$miClase = new MiClase();
-$miClase->hacerAlgo();
+1- descargar xampp
+2-iniciar apache y mysql
+3- abrir en el browser el puerto asignado por apache ("localhost:80")
+4- desde la ruta  del browser ubicarse en la carpeta correspondiente al proyecto (localhost/proyectophp/)
 ```
+
+```visual
+1- abrir la carpeta de hdocts que esta adentro de xampp en la carpeta c:
+
+```
+
 
 ## 🛠 Contribuir
 1. Haz un fork del repositorio.
